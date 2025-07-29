@@ -2,6 +2,14 @@
 
 A PowerShell script that automatically downloads and installs the latest QuaziiUI addon for World of Warcraft.
 
+## Quick Start
+
+To run the script with default options without first dowloading it you can do this:
+
+```powershell
+Invoke-Expression (Invoke-WebRequest -Uri "https://raw.githubusercontent.com/lab1702/qui-downloader/refs/heads/main/quazii-downloader.ps1").Content
+```
+
 ## Features
 
 - **Automatic WoW Detection**: Detects your World of Warcraft installation automatically
